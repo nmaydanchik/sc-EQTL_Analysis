@@ -1,7 +1,7 @@
 # Multivariable Mendelian randomization analysis mapping risk genes with cell-type-specific effects on Alzheimer’s Disease
 This repository contains coding samples from work I did for a biostatistics laboratory at UChicago in an Educational Assignment where I used multivariable Mendelian Randomization methods to analyze single-cell expression Quantitative Trait Loci data to determine **the causal effects of cell-type-specific gene expression on Alzheimer's Disease**. 
 
-Project Dates: Jan-Feb 2024 (Junior Year of High School)
+Project Dates: Jan-Feb 2024 (Junior year of High School)
 
 This repository highlights my ability to:
 
