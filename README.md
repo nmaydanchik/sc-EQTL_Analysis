@@ -16,7 +16,7 @@ I presented my findings to a UChicago lab group of ~15 Ph.D. students and postdo
 
 The objective of this project was to map genes with cell-type-specific effects on Alzheimer's Disease (focusing on cells in brain cortex tissues). This was part of a greater research effort of a Ph.D. student that culminated in a published paper in The American Journal of Human Genetics.
 
-First, I did a focused analysis of the CAV1 gene in endothelial cells. The scripts involved in this analysis are CAV1_Investigation.R, as well as supporting scripts RunMethods.R and process_sc_eQTL_Data.R.
+First, I did a focused analysis of the CAV1 gene in endothelial cells. The scripts involved in this analysis are CAV1_Analysis.R, as well as supporting scripts RunMethods.R and process_scEQTL_data.R.
 
 These were the instructions given to me by the Ph.D. student:
 
@@ -34,4 +34,4 @@ Expected output:
 
 I found that the LD clumping parameters and the IV-gene expression effect p-value restriction were too stringent and resulted in not enough instrumental variables (IV) for analysis (1, to be precise). I softened the restrictions to 250kb, r^2<0.5, p<0.05, and indeed found a consistent negative effect of expression of the CAV1 gene in endothelial cells on Alzheimer's Disease. 
 
-Afterwards, I did a multivariable Mendelian randomization analysis where I analyzed nearly 2,000 gene/cell-type combinations, split into seven biological pathways for Alzheimer's Disease, looking for genes with cell-type-specific effects on Alzheimer's disease. The script involved in this analysis is iterativeMVscEQTL.R. The findings of this analysis are in the presentation.
+Afterwards, I did a multivariable Mendelian randomization analysis where I analyzed nearly 2,000 gene/cell-type combinations, split into seven biological pathways for Alzheimer's Disease, looking for genes with cell-type-specific effects on Alzheimer's disease. The script involved in this analysis is mv_scEQTL_analysis.R. The findings of this analysis are in the presentation.
