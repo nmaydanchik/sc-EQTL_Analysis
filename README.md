@@ -15,7 +15,7 @@ I presented my findings to a UChicago lab group of ~15 Ph.D. students and postdo
 
 ## Project and File Description
 
-The objective of this project was to map genes with cell-type-specific effects on Alzheimer's Disease (focusing on cells in brain cortex tissues). This was part of a greater research effort of a Ph.D. student that culminated in a published paper in The American Journal of Human Genetics.
+The objective of this project was to map genes with cell-type-specific effects on Alzheimer's Disease (focusing on cells in brain cortex tissues). This was part of a greater research effort of a Ph.D. student that culminated in a published paper in The American Journal of Human Genetics, for which I am a co-author: This paper can be accessed here: https://doi.org/10.1016/j.ajhg.2024.06.012.   
 
 First, I did a focused analysis of the CAV1 gene in endothelial cells. The scripts involved in this analysis are CAV1_Analysis.R, as well as supporting scripts RunMethods.R and process_scEQTL_data.R.
 
